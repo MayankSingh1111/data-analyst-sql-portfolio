@@ -1,1 +1,1 @@
-# data-analyst-sql-portfolio
+# Data-Analyst-SQL-Portfolio
