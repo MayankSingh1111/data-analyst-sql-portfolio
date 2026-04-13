@@ -1,5 +1,7 @@
- --- CREATE TABLES ---
-
+## STRUCTURE
+ ### CREATE TABLES 
+ ---
+```
 CREATE TABLE customers (
   customer_id INT PRIMARY KEY,
   name VARCHAR(100),
@@ -25,12 +27,13 @@ CREATE TABLE order_items (
   order_id INT,
   product_id INT,
   quantity INT
-);
+); 
+```
 
 
 
-  --- Insert DSSSata
-
+  ### Insert Data
+```
 INSERT INTO customers (customer_id, name, city, signup_date) VALUES
 (1,'Rahul Sharma','Delhi','2023-01-10'),
 (2,'Priya Singh','Mumbai','2023-02-15'),
