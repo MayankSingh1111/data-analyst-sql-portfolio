@@ -1,3 +1,5 @@
+''' --- CREATE TABLES ---
+
 CREATE TABLE customers (
   customer_id INT PRIMARY KEY,
   name VARCHAR(100),
@@ -25,8 +27,9 @@ CREATE TABLE order_items (
   quantity INT
 );
 
+'''
 
--- insert data
+'''  --- Insert DSSSata
 
 INSERT INTO customers (customer_id, name, city, signup_date) VALUES
 (1,'Rahul Sharma','Delhi','2023-01-10'),
@@ -132,4 +135,4 @@ INSERT INTO order_items (order_id, product_id, quantity) VALUES
 (127,6,3),
 (128,15,1),
 (129,11,1),
-(130,4,2);
+(130,4,2); '''
