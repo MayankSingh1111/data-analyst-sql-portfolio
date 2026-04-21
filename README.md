@@ -8,16 +8,16 @@ This repository demonstrates consistent SQL practice with clean solutions and co
 
 ## 🚀 Overview
 
-- Solving 250+ SQL questions  
-- Covering beginner to advanced topics  
-- Focus on real-world data analysis use cases  
-- Daily structured learning approach  
+* Solving 250+ SQL questions
+* Covering beginner to advanced topics
+* Focus on real-world data analysis use cases
+* Daily structured learning approach
 
 ---
 
 ## 📂 Repository Structure
 
-
+```
 data-analyst-sql-portfolio/
 │
 ├── basics/
@@ -29,26 +29,26 @@ data-analyst-sql-portfolio/
 ├── case-statements/
 │
 ├── datasets/
-│ ├── Customers.xlsx
-│ ├── Order_item.xlsx
-│ ├── Orders.xlsx
-│ ├── products.xlsx
+│   ├── Customers.xlsx
+│   ├── Order_item.xlsx
+│   ├── Orders.xlsx
+│   ├── products.xlsx
 │
 ├── SETUP.md
 └── README.md
-
+```
 
 ---
 
 ## 🧠 Topics Covered
 
-- Filtering (WHERE)  
-- Joins (INNER JOIN, LEFT JOIN)  
-- Aggregations (COUNT, SUM, AVG)  
-- Subqueries  
-- Common Table Expressions (CTE)  
-- Window Functions  
-- CASE Statements  
+* Filtering (WHERE)
+* Joins (INNER JOIN, LEFT JOIN)
+* Aggregations (COUNT, SUM, AVG)
+* Subqueries
+* Common Table Expressions (CTE)
+* Window Functions
+* CASE Statements
 
 ---
 
@@ -62,26 +62,50 @@ SELECT order_id, amount,
            ELSE 'Low'
        END AS category
 FROM orders;
-📊 Dataset
+```
 
-Custom dataset used for practice:
+---
 
-Customers
-Orders
-Products
-Order Items
+## 📊 Dataset
+
+Custom datasets used for practice:
+
+* Customers
+* Orders
+* Products
+* Order Items
 
 Designed to simulate real-world business scenarios.
 
-📈 Project
-Sales & Customer Analysis
-Top customers
-Revenue trends
-Customer behavior analysis
-Business insights using SQL
-📅 Progress
-Day 1: Basics, Aggregations, Joins, Subqueries, CASE
-Day 2: Updating...
-🔗 Connect
-GitHub: https://github.com/MayankSingh1111
-LinkedIn: https://www.linkedin.com/in/mayank-singh-0162a920a/
+---
+
+## 📈 Project
+
+### Sales & Customer Analysis
+
+* Top customers
+* Revenue trends
+* Customer behavior analysis
+* Business insights using SQL
+
+---
+
+## 📅 Progress
+
+* Day 1: Basics, Aggregations, Joins, Subqueries, CASE
+* Day 2: Updating...
+
+---
+
+## ⚙️ Setup
+
+1. Download datasets from `/datasets`
+2. Import into your SQL tool (MySQL / PostgreSQL / SQL Server)
+3. Run queries from respective folders
+
+---
+
+## 🔗 Connect
+
+* GitHub: https://github.com/MayankSingh1111
+* LinkedIn: https://www.linkedin.com/in/mayank-singh-0162a920a/
